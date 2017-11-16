@@ -1,5 +1,5 @@
 <?php include 'includes/config.php'?>
-<?php include 'includes/header.php'?>
+<?php get_header()?>
 <?php
     
 //put client's email address here:    
@@ -127,8 +127,7 @@ Private Lesson
 ?>
 <?php
 
-include 'includes/footer.php';
-
+get_footer();
 
 
 function clean_post($key)
